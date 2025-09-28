@@ -57,114 +57,73 @@ export const technologies = [
 
 export const experiences = [
   {
-    title: "AI/ML Intern",
-    company_name: "EduSkill Foundation | AWS Academy | AICTE",
+    title: "Software Backend Developer",
+    company_name: "Telstra, Bengaluru, India",
     icon: eduskill,
     iconBg: "#161329",
-    date: "Sep 2023 - Nov 2023",
+    date: "Aug 2022 – Present",
     points: [
-      "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
-      "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
+      "Led performance tuning across Rule Engine, Device Data, and Telemetry Management services by optimizing database queries and workflows, improving API latency and throughput by 30%+.",
+      "Designed and developed telemetry processing and user management microservices, achieving 99% test coverage and improving stability.",
+      "Drove JavaScript-to-TypeScript migration using GitHub Copilot, improving code quality and developer efficiency.",
+      "Promoted secure development after Security Champion training; mentored juniors and guided architecture decisions in Agile teams.",
+      "Tech: TypeScript, Node.js, Nest.js, Express, AWS, Azure, PostgreSQL, MongoDB, Splunk",
     ],
   },
   {
-    title: "Mathwork Ai Virtual Intern",
-    company_name: "Mathwork | AICTE",
+    title: "Software Backend Developer",
+    company_name: "Reliance Jio, Mumbai, India",
     icon: mathwork,
     iconBg: "#161329",
-    date: "May 2023 - Sep 2023",
+    date: "Jul 2019 – Aug 2022",
     points: [
-      "Completed virtual internship, gaining a strong foundation in MATLAB, including data analysis and processing.",
-      "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
-      "Developed expertise in machine learning models for clustering, classification, and regression, and customized deep learning techniques for image classification.",
-    ],
-  },
-  {
-    title: "Artificial Intelligence Intern",
-    company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
-    icon: edunet,
-    iconBg: "#161329",
-    date: "June 2023 - July 2023",
-    points: [
-      "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
-      "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
-      "Leveraged 12 regression algorithms to attain precise outcomes in analyzing and predicting mental fitness levels across 150+ countries.",
+      "Built core features for IoT platform supporting 1M+ devices and 10K+ users; shipped 100+ scalable APIs.",
+      "Reduced API response time by 40% via Redis caching and asynchronous tasks (Celery).",
+      "Implemented asynchronous notification service with Celery and Redis for reliable, real-time messaging.",
+      "Introduced URL-based API versioning for backward compatibility and seamless upgrades.",
+      "Improved read performance and reduced replication lag with MySQL master-slave and custom pinning.",
+      "Led weekly releases and cross-functional collaboration with product, UI, and Android teams.",
+      "Tech: Python, Django, Flask, MySQL, MongoDB, Redis, Celery, JMeter, Grafana",
     ],
   },
 ];
 
 export const projects = [
   {
-    name: "WeatherPedia",
+    name: "Movie Discovery Platform (MERN)",
     description:
-      "Web-based platform that allows users to access weather information for their location by entering it in the search field",
+      "React app with real-time search, trending listings, and responsive UI using TMDB API. Deployed on GitHub Pages.",
     tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "HTML", color: "green-text-gradient" },
-      { name: "bootstrap 5.3.0", color: "pink-text-gradient" },
-      { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
+      { name: "MongoDB", color: "green-text-gradient" },
+      { name: "Express", color: "blue-text-gradient" },
+      { name: "React", color: "pink-text-gradient" },
+      { name: "Node.js", color: "yellow-text-gradient" },
     ],
     image: weatherpedia,
-    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
+    source_code_link: "https://github.com/upen-123969/movie-application",
   },
   {
-    name: "Terminal Like Portfolio Website",
+    name: "API Performance Tuning Playbook",
     description:
-      "A terminal themed portfolio website that allows users to type into the terminal and use commands like a real terminal.",
+      "Patterns and reference snippets for caching, async jobs, and DB query tuning used to double API throughput.",
     tags: [
-      { name: "HTML", color: "blue-text-gradient" },
-      { name: "css", color: "green-text-gradient" },
-      { name: "Javascript", color: "pink-text-gradient" },
+      { name: "Redis", color: "blue-text-gradient" },
+      { name: "PostgreSQL", color: "green-text-gradient" },
+      { name: "Celery", color: "pink-text-gradient" },
     ],
     image: termpw,
-    source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
+    source_code_link: "https://github.com/upen-123969",
   },
   {
-    name: "Mental Health Fitness Tracker",
+    name: "IoT Platform Components",
     description:
-      "ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.",
+      "Curated examples of telemetry pipelines, user services, and API versioning from large-scale IoT work.",
     tags: [
-      { name: "Machine Learning", color: "blue-text-gradient" },
-      { name: "Jupyter Notebook", color: "green-text-gradient" },
-      { name: "Regression Algorithms", color: "pink-text-gradient" },
-    ],
-    image: mhft,
-    source_code_link:
-      "https://github.com/lohitkolluri/mental_health_fitness_tracker",
-  },
-  {
-    name: "PayloadMaster",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "shell", color: "blue-text-gradient" },
-    ],
-    image: payloadmaster,
-    source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
-  },
-  {
-    name: "CompileVortex",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "CSS", color: "green-text-gradient" },
-      { name: "HTML", color: "pink-text-gradient" },
+      { name: "Django", color: "blue-text-gradient" },
+      { name: "FastAPI", color: "green-text-gradient" },
+      { name: "NestJS", color: "pink-text-gradient" },
     ],
     image: CompileVortex,
-    source_code_link: "https://github.com/lohitkolluri/CompileVortex",
-  },
-  {
-    name: "Sketcher",
-    description:
-      "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
-    tags: [
-      { name: "OpenCV", color: "blue-text-gradient" },
-      { name: "Matplotlib", color: "green-text-gradient" },
-      { name: "Python", color: "pink-text-gradient" },
-    ],
-
-    image: sketcher,
-    source_code_link: "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
+    source_code_link: "https://github.com/upen-123969",
   },
 ];

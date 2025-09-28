@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const toggleResume = () => {
-    const resumeUrl = '/Resume.pdf';
+    const resumeUrl = 'https://drive.google.com/file/d/1sXXU6i8Mbdt63czE-rNUVckobwWSHjH6/view?usp=drive_link';
     window.open(resumeUrl);
   };
 
@@ -63,8 +63,8 @@ const Navbar = () => {
           >
             <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
             <p className="text-white text-[20px] font-bold cursor-pointer flex">
-              LOHIT&nbsp;
-              <span className="sm:block hidden">KOLLURI</span>
+              UPENDRA&nbsp;
+              <span className="sm:block hidden">RAJPOOT</span>
             </p>
           </Link>
           {renderNavLinks(false)}
