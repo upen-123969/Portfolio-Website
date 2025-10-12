@@ -40,19 +40,16 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Backend engineer with nearly 6 years building scalable microservices in Python, Java, and
-        TypeScript across AWS and Azure. I focus on reliability, performance, and developer
-        efficiency — improving API throughput, optimizing DB queries, and introducing resilient
-        patterns like caching, async jobs, and API versioning. Previously at Reliance Jio and now at
-        Telstra, I’ve delivered production systems serving millions of devices and thousands of
-        users, while mentoring teams and driving secure, maintainable code.
+        I’m a backend engineer with nearly six years of experience building scalable microservices in Python, Java, and TypeScript, deployed across AWS and Azure. I focus on reliability, performance, and developer efficiency — improving API throughput, optimizing database queries, and implementing resilient patterns like caching, async processing, and API versioning.
+
+Previously at Reliance Jio and now at Telstra, I’ve delivered production-grade systems serving millions of devices and thousands of users, while mentoring teams and driving a culture of secure, maintainable, and high-quality code.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      {/* <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };

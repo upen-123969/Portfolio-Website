@@ -1,16 +1,16 @@
 // Import company logos
-import mathwork from "./company/mathwork.png";
-import edunet from "./company/edunet.png";
-import eduskill from "./company/eduskill.png";
+import jio from "./company/jio.png";
+import telstra from "./company/telstra.png";
 
 // Import tech stack images
 import python from "./tech-stack/python.png";
 import c from "./tech-stack/c.png";
 import cpp from "./tech-stack/cpp.png";
 import java from "./tech-stack/java.png";
+import typescript from "./tech-stack/typescript.png";
 
 // Import project images
-import weatherpedia from "./projects/WeatherPedia.png";
+import moviepedia from "./projects/moviepedia_1.png";
 import termpw from "./projects/termpw.png";
 import payloadmaster from "./projects/payloadmaster.png";
 import mhft from "./projects/mhft.png";
@@ -28,14 +28,14 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.png";
 
 // Import common assets
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
 export {
-  mathwork,
-  edunet,
+  jio,
+  telstra,
   python,
   c,
   cpp,
@@ -49,7 +49,7 @@ export {
   reactjs,
   tailwind,
   threejs,
-  weatherpedia,
+  moviepedia,
   termpw,
   payloadmaster,
   mhft,
@@ -58,5 +58,5 @@ export {
   logo,
   menu,
   close,
-  eduskill,
+  typescript
 };

@@ -33,6 +33,9 @@ const Contact = () => {
   const [emailError, setEmailError] = useState("");
   const [nameError, setNameError] = useState("");
   const [confirmation, setConfirmation] = useState("");
+  // const SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+  // const TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+  // const PUBLIC_KEY = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -67,8 +70,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_r2i0by4",
-        "template_mf5x3bh",
+        "service_yp8qq53",
+        "template_sugwism",
         {
           from_name: form.name,
           to_name: "Upendra Rajpoot",
@@ -76,7 +79,7 @@ const Contact = () => {
           to_email: "usingh.rajpoot19@gmail.com",
           message: form.message,
         },
-        "p-gXzzyvEhPaJ0XA-"
+        "OZApM-uDdD3iLZnvn"
       )
       .then(
         () => {
